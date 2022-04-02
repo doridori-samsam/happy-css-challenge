@@ -1,0 +1,59 @@
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color:bisque;
+}
+
+.container{
+    width:700px;
+    background-color: plum;
+    margin:100px auto;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:  1px 1px 15px 5px  palevioletred;
+    
+}
+  
+   
+header{
+    background-color:white;
+    padding:20px;
+    padding-left:0;
+    
+}
+
+h1{
+    color: deeppink;
+    padding-left:40px;
+    border-left:12px solid deeppink;
+    margin-left:0;
+    font-weight:bolder;
+}
+ul{
+    margin:0;
+    padding:0;
+    padding-top:30px;
+    
+}
+li{
+    list-style-type:none;
+    border:5px solid #ddd;
+    border-radius:15px;
+    opacity:0.9;
+    padding:30px;
+    margin:20px 40px;
+    background-color:white;
+    font-size:24px;
+    
+}
+
+li:hover{
+    border:5px solid deeppink;
+    opacity:1.0;
+    color:deeppink;
+}
+
+
+ 
