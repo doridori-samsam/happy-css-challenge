@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background-image: url(images/background.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1,p{
+        margin: 0;
+        font-size: inherit;
+        font-weight: inherit;
+}
+
+h1{
+    font-size: inherit;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    font-size:20px;
+}
+
+a{
+    text-decoration: initial;
+    color: inherit;
+}
+
+.wrapper{
+    background-color: #ddd;
+    width: 800px;
+    margin: 100px auto;
+}
+
+.header{
+    background-image: url(images/cover04.png);
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.profile{
+    border:5px solid white;
+    border-radius: 50%;
+}
+
+.header h1{
+    font-size: 100px;
+}
+
+.header p {
+    border-top: 4px solid;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 300px;
+    margin: 20px auto;
+    font-size:25px;
+
+}
+.contents{
+    background-color: darkslateblue;
+    padding:30px;
+    overflow:hidden;
+}
+
+.section{
+    background-color: white;
+    margin:20px;
+    padding:20px;
+}
+
+.section h2{
+    color: violet;
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top:3px;
+}
+
+.information{
+    background-image: url(images/icon-information.png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+
+}
+
+.skills{
+    background-image: url(images/icon-skills.png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+}
+.list li{
+    border-left: 5px solid #ddd;
+    padding: 5px 10px;
+}
+
+.list li:hover{
+    border-color: violet;
+
+}
+
+.footer{
+    background-color: #f4f4f4;
+    text-align:center;
+    padding: 20px 0;
+}
+
+.icon{
+    
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    color:white;
+}
+.icon.github{
+    background-color:black;
+}
+.icon.blog{
+    background-color: blueviolet;
+}
+.icon.instagram{
+    background-color: rgb(253, 108, 205);
+}
+.icon:hover{
+    border-color:orangered;
+    color:orangered;
+}
